@@ -11,6 +11,8 @@ from turtle import *
 
 def square(side_length,n):
     forward(side_length)
+    if (n > 0):
+        pyth(side_length,n-1)
     left(90)
     forward(side_length)
     left(90)
@@ -18,6 +20,23 @@ def square(side_length,n):
     left(90)
     forward(side_length)
     left(90)
+
+
+def pyth(side_length,n):
+    len_right = side_length/5*4
+    right(36.87)
+    square(len_right,n-1)
+    left(90)
+    forward(len_right)
+
+    len_left = side_length/5*3
+    square(len_left,n-1)
+    left(90)
+    forward(len_left)
+    left(36.87+90)
+    forward(side_length)
+    left(90)
+
 
 
 
