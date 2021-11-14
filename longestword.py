@@ -11,5 +11,5 @@ for line in words:
       max = l
       max_count = 0
 
-print(max)
-print(max_count)
+print("max: ", max)
+print("max_count: ",max_count)
