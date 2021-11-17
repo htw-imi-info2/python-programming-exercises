@@ -52,7 +52,7 @@ def start_position(len):
 # for available colors see https://www.tcl.tk/man/tcl8.4/TkCmd/colors.html
 
 def main(n):
-    speed('fastest')
+    #speed('fastest')
     color('dark green', 'pink')
     # begin_fill()
     side_length = 100
